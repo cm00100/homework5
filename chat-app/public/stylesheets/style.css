@@ -1,0 +1,83 @@
+html{
+  height: 99.5%;
+  width: 99.5%;
+  border: thin solid white;
+  background-image: url(../images/backgroundImage.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+body {
+  padding: 40px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+/*title*/
+h1{
+  border:thin solid black;
+  background-color: white;
+  padding: 3%;
+  position: center;
+}
+
+/*enter message*/
+label{
+  font-size: 12pt;
+  padding: .5%;
+  margin-top: 25%; 
+  border:thin solid black;
+  background-color: white;
+}
+
+/*message area*/
+#message{
+  font-size: 14pt;
+  margin-top: 2%;
+  width: 300px;
+}
+
+/*send message button*/
+input{
+  font-size: 12pt;
+  margin: 1%;
+}
+
+/*chat area*/
+#chat-area{
+  font-size: 20px;
+  border: thin solid black;
+  background-color: white;
+  padding: 3%;
+  display: inline-block;
+  overflow-y: scroll;
+  height: 300px;
+  max-height: 350px;
+  width: 70%;
+  float: left;
+
+}
+
+/*area displaying number connected*/
+#numConnected{
+  border: thin solid black;
+  background: white;
+  height: 300px;
+  max-height: 350px;
+  width: 15%;
+  float: right;
+  padding: 3%;
+  overflow-y: scroll;
+  display: inline-block;
+
+}
+
+#messageForm{
+  height: 200px;
+  width: 300px;
+}
